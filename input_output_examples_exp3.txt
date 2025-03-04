@@ -1,0 +1,92 @@
+Problem 1: Square Root Calculation (Easy Level)
+
+Input:
+Enter a number: 16
+
+Output:
+Square root: 4.0
+
+Input:
+Enter a number: -16
+
+Output:
+Error: Cannot calculate the square root of a negative number.
+
+Input:
+Enter a number: abc
+
+Output:
+Error: Invalid input. Please enter a numeric value.
+
+Problem 2: ATM Withdrawal System (Medium Level)
+
+Input:
+Enter PIN: 1234
+Withdraw Amount: 2000
+
+Output:
+Withdrawal successful. Current Balance: 1000.0
+
+Input:
+Enter PIN: 5678
+Withdraw Amount: 1000
+
+Output:
+Error: Invalid PIN. Current Balance: 3000.0
+
+Input:
+Enter PIN: 1234
+Withdraw Amount: 5000
+
+Output:
+Error: Insufficient balance. Current Balance: 3000.0
+
+Problem 3: University Enrollment System (Hard Level)
+
+Input:
+Enter student name: John
+Advanced Java
+exit
+
+Output:
+Error: Complete Core Java before enrolling in Advanced Java.
+
+Input:
+Enter student name: Jane
+Core Java
+Advanced Java
+exit
+
+Output:
+Jane enrolled in Core Java successfully.
+Jane enrolled in Advanced Java successfully.
+
+Input:
+Enter student name: Alice
+Core Java
+Algorithms
+exit
+
+Output:
+Alice enrolled in Core Java successfully.
+Error: Complete Data Structures before enrolling in Algorithms.
+
+Input:
+Enter student name: Bob
+Core Java
+Data Structures
+Algorithms
+exit
+
+Output:
+Bob enrolled in Core Java successfully.
+Bob enrolled in Data Structures successfully.
+Bob enrolled in Algorithms successfully.
+
+Input:
+Enter student name: Charlie
+Invalid Course Name
+exit
+
+Output:
+Course not found.
